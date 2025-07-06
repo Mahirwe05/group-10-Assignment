@@ -35,15 +35,20 @@ A **palindrome** is a word or phrase that reads the same forward and backward (e
 * Uses slicing `text[::-1]` to reverse the string
 * Compares original and reversed strings
 * Prints a clear result
+```
+def check_palindrome():
+    text = input("Enter a string to check if it's a palindrome: ")
+    if text == text[::-1]:
+        print("Yes, it is a palindrome.")
+    else:
+        print("No, it is not a palindrome.")
+
+check_palindrome()
+```
 
 ### 🧾 Sample Output
+![Pal](https://github.com/user-attachments/assets/feeb9042-9efc-4020-9558-5968e5c3ec49)
 
-```
-Enter a string to check if it's a palindrome: level
-Yes, it is a palindrome.
-```
-
----
 
 ## ✅ Question 3: String Combiner and Character Lister
 
@@ -62,18 +67,30 @@ This program asks the user for **two input strings**, combines them into one, an
 * Character iteration using a list comprehension
 * Organized output showing both the full string and character list
 
+  ```
+  def combine_and_iterate(text1, text2):
+    combined = text1 + text2
+    char_list = [char for char in combined]
+    return combined, char_list  
+
+
+text1 = input("Enter the first text: ")
+text2 = input("Enter the second text: ")
+
+
+combined, result = combine_and_iterate(text1, text2)
+
+print("Combined text:", combined)
+print("List of characters from combined text:", result)
+print("Thank you for using my application \nAfter processing the input.")
+
+  ```
+
 ### 🧾 Sample Output
 
-```
-Enter the first text: Hello
-Enter the second text: World
-Combined text: HelloWorld
-List of characters from combined text: ['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']
-Thank you for using my application 
-After processing the input.
-```
+![CON](https://github.com/user-attachments/assets/97787678-8239-429f-afc9-13b83b32f2c9)
 
----
+
 
 ## 🧠 Concepts Covered
 
@@ -86,15 +103,8 @@ After processing the input.
 
 ---
 
-## 🖥️ How to Run the Programs
 
-1. Make sure you have **Python 3.x** installed.
-2. Copy each code block into a `.py` file (e.g., `palindrome_checker.py`, `string_combiner.py`)
-3. Run using the terminal or any Python editor:
 
-   ```bash
-   python filename.py
-   ```
 
 
 

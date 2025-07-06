@@ -67,19 +67,23 @@ This program asks the user for **two input strings**, combines them into one, an
 * Character iteration using a list comprehension
 * Organized output showing both the full string and character list
 
-  ```python
-  def combine_and_iterate(text1, text2):
+```python
+def combine_and_iterate(text1, text2):
     combined = text1 + text2
     char_list = [char for char in combined]
-    return combined, char_list  
+    return combined, char_list  # Return both values
+
+# Get User Input
 text1 = input("Enter the first text: ")
 text2 = input("Enter the second text: ")
 
+# Process and display result
 combined, result = combine_and_iterate(text1, text2)
+
 print("Combined text:", combined)
 print("List of characters from combined text:", result)
 print("Thank you for using my application \nAfter processing the input.")
- ```
+```
 
 ### 🧾 Sample Output
 

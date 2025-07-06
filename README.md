@@ -35,7 +35,7 @@ A **palindrome** is a word or phrase that reads the same forward and backward (e
 * Uses slicing `text[::-1]` to reverse the string
 * Compares original and reversed strings
 * Prints a clear result
-```
+```python
 def check_palindrome():
     text = input("Enter a string to check if it's a palindrome: ")
     if text == text[::-1]:
@@ -67,29 +67,23 @@ This program asks the user for **two input strings**, combines them into one, an
 * Character iteration using a list comprehension
 * Organized output showing both the full string and character list
 
-  ```
+  ```python
   def combine_and_iterate(text1, text2):
     combined = text1 + text2
     char_list = [char for char in combined]
     return combined, char_list  
-
-
 text1 = input("Enter the first text: ")
 text2 = input("Enter the second text: ")
 
-
 combined, result = combine_and_iterate(text1, text2)
-
 print("Combined text:", combined)
 print("List of characters from combined text:", result)
 print("Thank you for using my application \nAfter processing the input.")
-
-  ```
+ ```
 
 ### 🧾 Sample Output
 
-![CON](https://github.com/user-attachments/assets/97787678-8239-429f-afc9-13b83b32f2c9)
-
+![CON](https://github.com/user-attachments/assets/82699b4c-9461-416d-a8b2-186cf6a69e6d)
 
 
 ## 🧠 Concepts Covered

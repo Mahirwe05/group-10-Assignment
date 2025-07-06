@@ -1,4 +1,5 @@
-# PYTHON ASSIGNMENT
+
+# 🐍 Python Assignment Report
 ## ✍️ Collaborators
 Name:
 MUGIRANEZA Eugene  27580
@@ -12,9 +13,6 @@ MUTSINZI Brian Heritier 26522
 AKIMANA Janviere 26769
 
 MAHIRWE Yvette 26510
-
-
-# 🐍 Python Assignment Report
 
 ## 📄 Overview
 

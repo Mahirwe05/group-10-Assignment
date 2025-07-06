@@ -56,9 +56,9 @@ check_palindrome()
 
 This program asks the user for **two input strings**, combines them into one, and then:
 
-* Displays the combined result
-* Breaks it into individual characters
-* Displays the list of characters
+* Displays the combined result.
+* Breaks it into individual characters.
+* Displays the list of characters.
 
 ### 💡 Features
 

@@ -14,6 +14,8 @@ AKIMANA Janviere 26769
 
 MAHIRWE Yvette 26510
 
+instructor: Maniraguha Eric
+
 ## 📄 Overview
 
 This assignment involves two simple but important Python programs that demonstrate core programming concepts:
